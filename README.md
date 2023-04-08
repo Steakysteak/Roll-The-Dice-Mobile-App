@@ -1,15 +1,21 @@
 # Roll-The-Dice-Mobile-App
 
-*Added Haptic Feedback*
+Introducing my latest mobile app project built using React Native and TypeScript - the Dice Roller App! With this app, users can roll the dice and have a random number displayed to them. This simple yet fun application demonstrates the use of TypeScript for good coding practices and logic building.
 
-Firstly, haptic feedback is an essential aspect of modern user interfaces that can provide users with tactile feedback when interacting with digital devices. This feature is particularly useful in mobile applications where users may not always be looking at the screen. With haptic feedback, users can receive tactile feedback that helps them navigate and interact with the app in a more intuitive manner.
+The Dice Roller App is perfect for board game enthusiasts or anyone looking for a quick and easy way to roll the dice. With just a tap of a button, the app generates a random number between one and six, just like rolling a real dice. The number is displayed on the screen in a clear and easy-to-read format, making it simple for users to see and use in their games.
 
-To enable haptic feedback in your mobile app, you have added a new branch to your project that integrates the react-native-haptic-feedback package. This package is a popular choice for enabling haptic feedback in React Native applications and provides a simple API for triggering haptic feedback on both iOS and Android devices.
+One of the key features of the Dice Roller App is the use of TypeScript. TypeScript is a statically typed superset of JavaScript that adds features like optional static typing, classes, interfaces, and more to the language. This allows for better code organization, type checking, and improved code maintainability.
 
-To begin, you have installed the react-native-haptic-feedback package using the npm package manager. This package provides a simple API that allows you to trigger different types of haptic feedback, such as vibration, impact, and selection. You have also added a new component to your app that will serve as the trigger for the haptic feedback.
+Using TypeScript in the Dice Roller App also ensures that the code is more robust and less prone to errors. With type checking, developers can catch errors early on in the development process, reducing the likelihood of bugs in the final product. This ultimately leads to a more stable and reliable app for users.
 
-In the code, you have imported the react-native-haptic-feedback package and used it to define a new function that triggers the haptic feedback. This function takes an optional feedback type parameter and calls the appropriate haptic feedback API based on the specified type.
+In addition to demonstrating good coding practices with TypeScript, the Dice Roller App also showcases logic building skills. The app's code is designed to generate a random number between one and six using a mathematical algorithm. This logic ensures that the app produces truly random results every time, making it a fair and unbiased tool for board games.
 
-You have also added an event listener to your app that calls the haptic feedback function whenever the user interacts with the trigger component. This event listener is attached to the appropriate gesture or button press event in your app and ensures that the haptic feedback is triggered whenever the user interacts with the app.
+Overall, the Dice Roller App is a fun and educational project that showcases the power of React Native, TypeScript, and logic building skills. With its simple yet effective design, the app is sure to be a hit with board game enthusiasts and casual gamers alike.
 
-Overall, the haptic feedback feature you have added to your mobile app using the react-native-haptic-feedback package is an important enhancement that will improve the user experience and make your app more intuitive to use. By providing users with tactile feedback, you can help them navigate and interact with your app more easily, even when they are not looking at the screen.
+Snapshots from the app: 
+
+<img width="252" alt="Screenshot 2023-04-06 104028" src="https://user-images.githubusercontent.com/75496668/230278100-49895068-f1db-41ec-b75f-4219a3c5f6ad.png">
+
+<img width="248" alt="Screenshot 2023-04-06 104050" src="https://user-images.githubusercontent.com/75496668/230278121-89e03b92-06e1-4750-88d3-425f3ed37c67.png">
+
+<img width="246" alt="Screenshot 2023-04-06 104112" src="https://user-images.githubusercontent.com/75496668/230278136-6c8b0570-d762-4873-8750-e31b6c6ad61a.png">

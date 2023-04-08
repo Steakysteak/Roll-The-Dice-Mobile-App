@@ -57,7 +57,7 @@ export default function App(): JSX.Element {
       default:
       break;
     }
-    ReactNativeHapticFeedback.trigger("impactLight", options);
+    ReactNativeHapticFeedback.trigger("impactHeavy", options);
   }
 
   return (
